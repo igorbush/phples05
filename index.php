@@ -41,10 +41,10 @@
 		</tr>
 		<?php foreach($a as $item): ?>
 			<tr>
-				<td><?php echo $item[firstName]; ?></td>
-				<td><?php echo $item[lastName]; ?></td>
-				<td><?php echo $item[address]; ?></td>
-				<td><?php echo $item[phoneNumber]; ?></td>
+				<td><?php echo $item['firstName']; ?></td>
+				<td><?php echo $item['lastName']; ?></td>
+				<td><?php echo $item['address']; ?></td>
+				<td><?php echo $item['phoneNumber']; ?></td>
 			</tr>
 		<?php endforeach; ?>
 	</table>
